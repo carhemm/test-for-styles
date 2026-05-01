@@ -1,6 +1,6 @@
 /* reset and base style*/
 
-/* * {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -60,7 +60,7 @@ body{
     padding: 0 20px;
 }
 
-/* hover effect 
+ hover effect 
 .image-container:hover img{
     transform: scale(1.1);
     filter: brightness(0.7);
@@ -80,7 +80,6 @@ body{
     transition-delay:0.3s;
 }
 
-/*shine effect
 .image-container::after {
     content: '';
     position: absolute;
@@ -95,7 +94,7 @@ body{
 
 .image-container:hover::after {
     left: 150%;
-} */
+} 
 
 /* new code for login effect */
 *{
@@ -110,7 +109,6 @@ body {
   display:flex;
   justify-content:center;
   align-items:center;
-  /*background:url(https://images.unsplash.com/photo-1777197255275-0c5d564c844f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MDUxNjh8&ixlib=rb-4.1.0&q=85);*/
   background-image:url("../img/TL 1.jpg");
   animation: gradiantBG 120s ease infinite;
   overflow:hidden;
@@ -272,7 +270,7 @@ body {
 .register-link a:hover{
   text-decoration: underline;
 }
-.button-container {
-  margin-top: 20px;
-  text-align: right;
+.button {
+  margin: 20px;
+  text-align: top,right;
 }

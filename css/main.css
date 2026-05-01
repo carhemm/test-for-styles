@@ -109,9 +109,10 @@ body {
   min-height: 100ah;
   display:flex;
   justify-content:center;
-  align-tems:center;
-  background:url(https://images.unsplash.com/photo-1777197255275-0c5d564c844f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MDUxNjh8&ixlib=rb-4.1.0&q=85);
-  animation: gradiantBG 90s ease infinite;
+  align-items:center;
+  /*background:url(https://images.unsplash.com/photo-1777197255275-0c5d564c844f?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Nzc2MDUxNjh8&ixlib=rb-4.1.0&q=85);*/
+  background-image:url("../img/TL 1.jpg");
+  animation: gradiantBG 120s ease infinite;
   overflow:hidden;
 }
 
@@ -270,5 +271,8 @@ body {
 }
 .register-link a:hover{
   text-decoration: underline;
-  
+}
+.button-container {
+  margin-top: 20px;
+  text-align: right;
 }
